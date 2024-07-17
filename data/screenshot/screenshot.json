@@ -1,0 +1,770 @@
+[
+    "alignment: v",
+    {
+        "id": "b-0",
+        "class": "Block",
+        "alignment": "h",
+        "children": [
+            {
+                "id": "c-17",
+                "class": "Compo",
+                "sub_class": "buttonicon",
+                "text_content": "减号、取消、减速、一键（已选中）",
+                "pair_to": "",
+                "location": {
+                    "left": 28,
+                    "right": 145,
+                    "top": 86,
+                    "bottom": 193
+                }
+            },
+            {
+                "id": "c-31",
+                "class": "Compo",
+                "sub_class": "edittext",
+                "text_content": "默认文本: 女厅里厅气衣服",
+                "pair_to": "",
+                "location": {
+                    "left": 140,
+                    "right": 821,
+                    "top": 89,
+                    "bottom": 193
+                }
+            },
+            {
+                "id": "c-16",
+                "class": "Compo",
+                "sub_class": "buttonicon",
+                "text_content": "相机、图片搜索、或截图、快门键",
+                "pair_to": "",
+                "location": {
+                    "left": 720,
+                    "right": 849,
+                    "top": 86,
+                    "bottom": 190
+                }
+            },
+            {
+                "id": "c-20",
+                "class": "Compo",
+                "sub_class": "buttonicon",
+                "text_content": "搜索",
+                "pair_to": "",
+                "location": {
+                    "left": 849,
+                    "right": 1046,
+                    "top": 92,
+                    "bottom": 190
+                }
+            }
+        ],
+        "location": {
+            "left": 28,
+            "right": 1046,
+            "top": 86,
+            "bottom": 193
+        }
+    },
+    {
+        "id": "b-1",
+        "class": "Block",
+        "alignment": "v",
+        "children": [
+            {
+                "id": "b-2",
+                "class": "Block",
+                "alignment": "h",
+                "children": [
+                    {
+                        "id": "c-25",
+                        "class": "Compo",
+                        "sub_class": "buttonicon",
+                        "text_content": "标题：关注",
+                        "pair_to": "",
+                        "location": {
+                            "left": 28,
+                            "right": 154,
+                            "top": 196,
+                            "bottom": 302
+                        }
+                    },
+                    {
+                        "id": "c-32",
+                        "class": "Text",
+                        "sub_class": "Text",
+                        "text_content": "推荐",
+                        "pair_to": "",
+                        "location": {
+                            "left": 179,
+                            "right": 280,
+                            "top": 224,
+                            "bottom": 274
+                        }
+                    },
+                    {
+                        "id": "c-33",
+                        "class": "Text",
+                        "sub_class": "Text",
+                        "text_content": "小时达",
+                        "pair_to": "",
+                        "location": {
+                            "left": 325,
+                            "right": 457,
+                            "top": 224,
+                            "bottom": 272
+                        }
+                    },
+                    {
+                        "id": "c-34",
+                        "class": "Text",
+                        "sub_class": "Text",
+                        "text_content": "狂暑季",
+                        "pair_to": "",
+                        "location": {
+                            "left": 502,
+                            "right": 628,
+                            "top": 221,
+                            "bottom": 272
+                        }
+                    },
+                    {
+                        "id": "c-35",
+                        "class": "Text",
+                        "sub_class": "Text",
+                        "text_content": "穿搭",
+                        "pair_to": "",
+                        "location": {
+                            "left": 673,
+                            "right": 762,
+                            "top": 224,
+                            "bottom": 269
+                        }
+                    },
+                    {
+                        "id": "c-36",
+                        "class": "Text",
+                        "sub_class": "Text",
+                        "text_content": "母婴",
+                        "pair_to": "",
+                        "location": {
+                            "left": 802,
+                            "right": 891,
+                            "top": 224,
+                            "bottom": 269
+                        }
+                    },
+                    {
+                        "id": "c-28",
+                        "class": "Compo",
+                        "sub_class": "buttonicon",
+                        "text_content": "图片，或翻译、或带字图片",
+                        "pair_to": "",
+                        "location": {
+                            "left": 920,
+                            "right": 990,
+                            "top": 201,
+                            "bottom": 294
+                        }
+                    },
+                    {
+                        "id": "c-23",
+                        "class": "Compo",
+                        "sub_class": "buttonicon",
+                        "text_content": "向下箭头/隐藏、展开键",
+                        "pair_to": "",
+                        "location": {
+                            "left": 981,
+                            "right": 1071,
+                            "top": 199,
+                            "bottom": 297
+                        }
+                    }
+                ],
+                "location": {
+                    "left": 28,
+                    "right": 1071,
+                    "top": 196,
+                    "bottom": 302
+                }
+            },
+            {
+                "id": "b-3",
+                "class": "Block",
+                "alignment": "h",
+                "children": [
+                    {
+                        "id": "c-2",
+                        "class": "Compo",
+                        "sub_class": "buttonicon",
+                        "text_content": "淘宝买菜",
+                        "pair_to": "37",
+                        "location": {
+                            "left": 67,
+                            "right": 179,
+                            "top": 330,
+                            "bottom": 431
+                        }
+                    },
+                    {
+                        "id": "c-8",
+                        "class": "Compo",
+                        "sub_class": "buttonicon",
+                        "text_content": "百亿补贴",
+                        "pair_to": "38",
+                        "location": {
+                            "left": 280,
+                            "right": 384,
+                            "top": 328,
+                            "bottom": 431
+                        }
+                    },
+                    {
+                        "id": "c-10",
+                        "class": "Compo",
+                        "sub_class": "buttonicon",
+                        "text_content": "淘宝直播",
+                        "pair_to": "39",
+                        "location": {
+                            "left": 485,
+                            "right": 594,
+                            "top": 330,
+                            "bottom": 431
+                        }
+                    },
+                    {
+                        "id": "c-6",
+                        "class": "Compo",
+                        "sub_class": "buttonicon",
+                        "text_content": "红包优惠",
+                        "pair_to": "40",
+                        "location": {
+                            "left": 695,
+                            "right": 802,
+                            "top": 328,
+                            "bottom": 431
+                        }
+                    },
+                    {
+                        "id": "c-7",
+                        "class": "Compo",
+                        "sub_class": "buttonicon",
+                        "text_content": "红包",
+                        "pair_to": "",
+                        "location": {
+                            "left": 906,
+                            "right": 1009,
+                            "top": 328,
+                            "bottom": 431
+                        }
+                    }
+                ],
+                "location": {
+                    "left": 67,
+                    "right": 1009,
+                    "top": 328,
+                    "bottom": 431
+                }
+            },
+            {
+                "id": "c-41",
+                "class": "Text",
+                "sub_class": "Text",
+                "text_content": "新人特惠",
+                "pair_to": "",
+                "location": {
+                    "left": 880,
+                    "right": 1029,
+                    "top": 443,
+                    "bottom": 485
+                }
+            },
+            {
+                "id": "b-4",
+                "class": "Block",
+                "alignment": "h",
+                "children": [
+                    {
+                        "id": "c-11",
+                        "class": "Compo",
+                        "sub_class": "buttonicon",
+                        "text_content": "置换",
+                        "pair_to": "",
+                        "location": {
+                            "left": 67,
+                            "right": 196,
+                            "top": 496,
+                            "bottom": 614
+                        }
+                    },
+                    {
+                        "id": "c-5",
+                        "class": "Compo",
+                        "sub_class": "buttonicon",
+                        "text_content": "饿了么",
+                        "pair_to": "43",
+                        "location": {
+                            "left": 277,
+                            "right": 384,
+                            "top": 513,
+                            "bottom": 617
+                        }
+                    },
+                    {
+                        "id": "c-4",
+                        "class": "Compo",
+                        "sub_class": "buttonicon",
+                        "text_content": "红包签到",
+                        "pair_to": "44",
+                        "location": {
+                            "left": 485,
+                            "right": 594,
+                            "top": 507,
+                            "bottom": 614
+                        }
+                    },
+                    {
+                        "id": "c-9",
+                        "class": "Compo",
+                        "sub_class": "buttonicon",
+                        "text_content": "淘宝人生",
+                        "pair_to": "45",
+                        "location": {
+                            "left": 692,
+                            "right": 802,
+                            "top": 513,
+                            "bottom": 619
+                        }
+                    },
+                    {
+                        "id": "c-3",
+                        "class": "Compo",
+                        "sub_class": "buttonicon",
+                        "text_content": "淘宝秒杀",
+                        "pair_to": "46",
+                        "location": {
+                            "left": 906,
+                            "right": 1009,
+                            "top": 513,
+                            "bottom": 617
+                        }
+                    }
+                ],
+                "location": {
+                    "left": 67,
+                    "right": 1009,
+                    "top": 496,
+                    "bottom": 619
+                }
+            },
+            {
+                "id": "c-29",
+                "class": "Compo",
+                "sub_class": "switch",
+                "text_content": "天猫好房的关闭按钮键",
+                "pair_to": "",
+                "location": {
+                    "left": 496,
+                    "right": 575,
+                    "top": 678,
+                    "bottom": 701
+                }
+            }
+        ],
+        "location": {
+            "left": 28,
+            "right": 1071,
+            "top": 196,
+            "bottom": 701
+        }
+    },
+    {
+        "id": "b-5",
+        "class": "Block",
+        "alignment": "v",
+        "children": [
+            {
+                "id": "b-6",
+                "class": "Block",
+                "alignment": "h",
+                "children": [
+                    {
+                        "id": "c-47",
+                        "class": "Text",
+                        "sub_class": "Text",
+                        "text_content": "标题：淘宝秘杀",
+                        "pair_to": "",
+                        "location": {
+                            "left": 44,
+                            "right": 227,
+                            "top": 726,
+                            "bottom": 776
+                        }
+                    },
+                    {
+                        "id": "c-48",
+                        "class": "Text",
+                        "sub_class": "Text",
+                        "text_content": "全场0.99元起，去抢购>",
+                        "pair_to": "",
+                        "location": {
+                            "left": 636,
+                            "right": 1021,
+                            "top": 732,
+                            "bottom": 774
+                        }
+                    },
+                    {
+                        "id": "c-30",
+                        "class": "Compo",
+                        "sub_class": "buttonicon",
+                        "text_content": "可能是",
+                        "pair_to": "",
+                        "location": {
+                            "left": 1012,
+                            "right": 1049,
+                            "top": 729,
+                            "bottom": 771
+                        }
+                    }
+                ],
+                "location": {
+                    "left": 44,
+                    "right": 1049,
+                    "top": 726,
+                    "bottom": 776
+                }
+            },
+            {
+                "id": "b-7",
+                "class": "Block",
+                "alignment": "h",
+                "children": [
+                    {
+                        "id": "c-14",
+                        "class": "Compo",
+                        "sub_class": "image",
+                        "text_content": "￥2.9 降5",
+                        "pair_to": "",
+                        "location": {
+                            "left": 42,
+                            "right": 269,
+                            "top": 782,
+                            "bottom": 1012
+                        }
+                    },
+                    {
+                        "id": "c-18",
+                        "class": "Compo",
+                        "sub_class": "image",
+                        "text_content": "￥44 降3",
+                        "pair_to": "",
+                        "location": {
+                            "left": 300,
+                            "right": 507,
+                            "top": 782,
+                            "bottom": 1012
+                        }
+                    },
+                    {
+                        "id": "c-49",
+                        "class": "Text",
+                        "sub_class": "Text",
+                        "text_content": "￥10",
+                        "pair_to": "",
+                        "location": {
+                            "left": 586,
+                            "right": 633,
+                            "top": 970,
+                            "bottom": 998
+                        }
+                    },
+                    {
+                        "id": "c-21",
+                        "class": "Compo",
+                        "sub_class": "buttonicon",
+                        "text_content": "蓝月亮",
+                        "pair_to": "",
+                        "location": {
+                            "left": 586,
+                            "right": 743,
+                            "top": 816,
+                            "bottom": 967
+                        }
+                    },
+                    {
+                        "id": "c-50",
+                        "class": "Text",
+                        "sub_class": "Text",
+                        "text_content": "降1.8",
+                        "pair_to": "",
+                        "location": {
+                            "left": 667,
+                            "right": 740,
+                            "top": 970,
+                            "bottom": 1001
+                        }
+                    },
+                    {
+                        "id": "c-26",
+                        "class": "Compo",
+                        "sub_class": "buttonicon",
+                        "text_content": "去抢红包>",
+                        "pair_to": "51",
+                        "location": {
+                            "left": 835,
+                            "right": 1001,
+                            "top": 791,
+                            "bottom": 939
+                        }
+                    }
+                ],
+                "location": {
+                    "left": 42,
+                    "right": 1001,
+                    "top": 782,
+                    "bottom": 1012
+                }
+            }
+        ],
+        "location": {
+            "left": 42,
+            "right": 1049,
+            "top": 726,
+            "bottom": 1012
+        }
+    },
+    {
+        "id": "b-11",
+        "class": "Block",
+        "alignment": "v",
+        "children": [
+            {
+                "id": "c-12",
+                "class": "Compo",
+                "sub_class": "image",
+                "text_content": "FANGYOU",
+                "pair_to": "",
+                "location": {
+                    "left": 61,
+                    "right": 510,
+                    "top": 1051,
+                    "bottom": 1542
+                }
+            },
+            {
+                "id": "c-0",
+                "class": "Compo",
+                "sub_class": "image",
+                "text_content": "挂钩 手作水杯架 皮革手刹套 √钥匙保护套 √束口收纳袋 储物挂兜",
+                "pair_to": "",
+                "location": {
+                    "left": 552,
+                    "right": 1043,
+                    "top": 1049,
+                    "bottom": 1705
+                }
+            },
+            {
+                "id": "c-52",
+                "class": "Text",
+                "sub_class": "Text",
+                "text_content": "标题：天猫新中式衬衫提花马面每300减30",
+                "pair_to": "",
+                "location": {
+                    "left": 47,
+                    "right": 496,
+                    "top": 1567,
+                    "bottom": 1668
+                }
+            }
+        ],
+        "location": {
+            "left": 47,
+            "right": 1043,
+            "top": 1049,
+            "bottom": 1705
+        }
+    },
+    {
+        "id": "b-12",
+        "class": "Block",
+        "alignment": "v",
+        "children": [
+            {
+                "id": "c-53",
+                "class": "Text",
+                "sub_class": "Text",
+                "text_content": "￥118100+人付款",
+                "pair_to": "",
+                "location": {
+                    "left": 53,
+                    "right": 336,
+                    "top": 1702,
+                    "bottom": 1747
+                }
+            },
+            {
+                "id": "b-8",
+                "class": "Block",
+                "alignment": "v",
+                "children": [
+                    {
+                        "id": "c-54",
+                        "class": "Text",
+                        "sub_class": "Text",
+                        "text_content": "天猫爱玛元宇宙pro配饰狂暑季每300减30",
+                        "pair_to": "",
+                        "location": {
+                            "left": 566,
+                            "right": 998,
+                            "top": 1727,
+                            "bottom": 1831
+                        }
+                    },
+                    {
+                        "id": "c-55",
+                        "class": "Text",
+                        "sub_class": "Text",
+                        "text_content": "￥9.937人付款",
+                        "pair_to": "",
+                        "location": {
+                            "left": 572,
+                            "right": 816,
+                            "top": 1868,
+                            "bottom": 1910
+                        }
+                    }
+                ],
+                "location": {
+                    "left": 566,
+                    "right": 998,
+                    "top": 1727,
+                    "bottom": 1910
+                }
+            }
+        ],
+        "location": {
+            "left": 53,
+            "right": 998,
+            "top": 1702,
+            "bottom": 1910
+        }
+    },
+    {
+        "id": "b-9",
+        "class": "Block",
+        "alignment": "h",
+        "children": [
+            {
+                "id": "c-1",
+                "class": "Compo",
+                "sub_class": "image",
+                "text_content": "一个image",
+                "pair_to": "",
+                "location": {
+                    "left": 36,
+                    "right": 524,
+                    "top": 1803,
+                    "bottom": 2098
+                }
+            },
+            {
+                "id": "c-15",
+                "class": "Compo",
+                "sub_class": "edittext",
+                "text_content": "默认文本: 搜索框",
+                "pair_to": "",
+                "location": {
+                    "left": 552,
+                    "right": 1043,
+                    "top": 1969,
+                    "bottom": 2098
+                }
+            }
+        ],
+        "location": {
+            "left": 36,
+            "right": 1043,
+            "top": 1803,
+            "bottom": 2098
+        }
+    },
+    {
+        "id": "b-10",
+        "class": "Block",
+        "alignment": "h",
+        "children": [
+            {
+                "id": "c-22",
+                "class": "Compo",
+                "sub_class": "buttonicon",
+                "text_content": "翻译、或带字图片键（已选中）",
+                "pair_to": "",
+                "location": {
+                    "left": 47,
+                    "right": 165,
+                    "top": 2109,
+                    "bottom": 2229
+                }
+            },
+            {
+                "id": "c-24",
+                "class": "Compo",
+                "sub_class": "buttonicon",
+                "text_content": "视频",
+                "pair_to": "",
+                "location": {
+                    "left": 218,
+                    "right": 431,
+                    "top": 2106,
+                    "bottom": 2241
+                }
+            },
+            {
+                "id": "c-13",
+                "class": "Compo",
+                "sub_class": "buttonicon",
+                "text_content": "消息",
+                "pair_to": "",
+                "location": {
+                    "left": 429,
+                    "right": 650,
+                    "top": 2106,
+                    "bottom": 2241
+                }
+            },
+            {
+                "id": "c-19",
+                "class": "Compo",
+                "sub_class": "buttonicon",
+                "text_content": "购物车",
+                "pair_to": "",
+                "location": {
+                    "left": 647,
+                    "right": 863,
+                    "top": 2100,
+                    "bottom": 2241
+                }
+            },
+            {
+                "id": "c-27",
+                "class": "Compo",
+                "sub_class": "buttonicon",
+                "text_content": "我的淘宝",
+                "pair_to": "",
+                "location": {
+                    "left": 861,
+                    "right": 1060,
+                    "top": 2100,
+                    "bottom": 2241
+                }
+            }
+        ],
+        "location": {
+            "left": 47,
+            "right": 1060,
+            "top": 2100,
+            "bottom": 2241
+        }
+    }
+]
