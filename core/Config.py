@@ -9,7 +9,7 @@ if clean_save:
 ocr_save_flag = 'save'  # ocr省钱模式 用于反复调整时 直接使用已保存的ocr结果 部分文件支持
 ocr_output_only = False  # 新增：只输出ocr结果 不要所有ip
 alg = 'yolo'  # yolo / detr / vins 三种算法
-accurate_ocr = False  # 是否使用高精度版OCR, 低精度的是开源paddleocr，高精度的是调用paddle的ocr api
+accurate_ocr = False  # 是否使用高精度版OCR, 低精度的是开源paddleocr，高精度的是调用paddle的ocr api（readme有写改key的位置）
 lang = 'zh'  # en / zh  # 输出语言选择
 workflow_only = False     # 只输出json和整体流程图
 
