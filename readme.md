@@ -65,6 +65,6 @@ Benchmarks using GPT-4V method's main operation scripts:
 Will be uploaded in the form of cloud disk.
 
 ## 🌷Acknowledge
-Part of the implementation is based on the open-source project [MulongXie/UIED](https://github.com/MulongXie/UIED)
+Part of the implementation is based on the open-source project [MulongXie/GUI-Perceptual-Grouping](https://github.com/MulongXie/GUI-Perceptual-Grouping).
 
 Without their contributions, our UI detection framework would not be as refined as it is today. We extend our sincere gratitude to them.
