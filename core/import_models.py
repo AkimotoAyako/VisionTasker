@@ -51,7 +51,8 @@ def import_all_models(alg, accurate_ocr=True,  # yolo / vins 目标检测选一
         # print('GPT4V mode 不导入CLIP 你耗子尾汁')
 
     print('💯Successfully imported the model! Good luck!🍀')
-    if accurate_ocr:
-        return model_ver, model_det, model_cls, preprocess
-    else:
-        return model_ver, model_det, model_cls, preprocess, ocr
+    # if accurate_ocr:
+    #     return model_ver, model_det, model_cls, preprocess
+    # else:
+    #     return model_ver, model_det, model_cls, preprocess, ocr
+    return model_ver, model_det, model_cls, preprocess, ocr

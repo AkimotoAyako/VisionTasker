@@ -24,9 +24,10 @@ if input_ProcessImgModel:
     else:
         print('你的装备是', now_gpu.name, '内存使用情况：', now_gpu.memoryFree, '/', now_gpu.memoryTotal, '好像有别的程序在用 显卡发出尖锐爆鸣')
     import core.import_models as import_models
-    model_ver, model_det, model_cls, preprocess = import_models.import_all_models \
+    model_ver, model_det, model_cls, preprocess, ocr = import_models.import_all_models \
         (alg,
             # model_path_yolo='pt_model/yolo_s_best.pt',
+            accurate_ocr = accurate_ocr,
             model_path_yolo='pt_model/yolo_mdl.pt',
             model_path_vins_dir='pt_model/yolo_vins_',
             model_ver='14',
@@ -175,7 +176,8 @@ def client_main():
                     invalid_button_str = [''] #重置无效控件列表
 
                 result_js = process_img(label_path_dir, save_path_old, output_root, layout_json_dir, high_conf_flag,
-                            alg, clean_save, plot_show, ocr_save_flag, model_ver, model_det, model_cls, preprocess, ocr_only=ocr_output_only)
+                            alg, clean_save, plot_show, ocr_save_flag, model_ver, model_det, model_cls, preprocess, 
+                             pd_free_ocr=ocr, ocr_only=ocr_output_only)
 
                 
                 # 存储json文件
