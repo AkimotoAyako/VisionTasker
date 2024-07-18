@@ -17,9 +17,10 @@ input_ProcessImgModel = True
 if input_ProcessImgModel:
     # 导入模型 开机仅一次即可
     import core.import_models as import_models
-    model_ver, model_det, model_cls, preprocess = import_models.import_all_models \
+    model_ver, model_det, model_cls, preprocess, ocr = import_models.import_all_models \
         (alg,
             # model_path_yolo='pt_model/yolo_s_best.pt',
+            accurate_ocr = accurate_ocr,
             model_path_yolo='pt_model/yolo_mdl.pt',
             model_path_vins_dir='pt_model/yolo_vins_',
             model_ver='14',
@@ -146,7 +147,8 @@ def client_main():
                 invalid_button_str = ['']  # 重置无效控件列表
             print('🧐: OK, let me take a closer look......')
             result_js = process_img(label_path_dir, save_path_old, output_root, layout_json_dir, high_conf_flag,
-                        alg, clean_save, plot_show, ocr_save_flag, model_ver, model_det, model_cls, preprocess, ocr_only=ocr_output_only, lang=language)
+                        alg, clean_save, plot_show, ocr_save_flag, model_ver, model_det, 
+                        model_cls, preprocess, pd_free_ocr=ocr, ocr_only=ocr_output_only, lang=language)
 
 
             # 存储json文件
