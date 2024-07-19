@@ -38,7 +38,7 @@ Model path: Put pre-trained models (target detection model and CLIP) under `pt_m
 #### `/`
 - `main_en_auto.py`：Automates the entire process；
 - `main_zh_bystep.py`: Step by step automation (Interactive prompt in Chinese).
-    1. Enter the task content: Enter "m" first, and then enter the task number "xx" corresponding to the task table (VisionTasker\data\task.xlsx), or directly enter "m xxx".
+    1. Enter the task content: If you use the task table in "data" for input：enter "m" first, and then enter the task number "xx" corresponding to the task table (VisionTasker\data\task.xlsx), or directly enter "m xxx".If you want to enter the task content directly: enter "m" first, then enter the task content.
     2. Screenshot recognition: Input "i" (start with i to prevent redundant misinput); After the llm command output is completed by the operator, take the next screenshot until the task is completed.
     3. To restart a task or start another task, just go back to step 1
 - `test_gpt4v_realworldword.py`: Benchmarks using GPT-4V. Mobile interface elements are pre-labeled with IDs. GPT-4V receives images and tasks and returns operation IDs.
