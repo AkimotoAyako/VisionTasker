@@ -11,6 +11,9 @@ from core.screenshot_translator import ScreenshotTranslator
 from core.LLM_api import use_LLM
 from core.help_seq_getter import help_get_flag, help_seq_get
 from core.Config import *
+import logging
+logging.disable(logging.DEBUG)
+logging.disable(logging.WARNING)
 
 taskdf = pd.read_excel(TaskTable_PATH, keep_default_na=False)
 input_ProcessImgModel = True
