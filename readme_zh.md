@@ -78,8 +78,12 @@ benchmarks，使用GPT-4V的方法的主要的操作脚本：
 #### `├─ element/detect_text/`
 
 - - `text_detection.py`: **在此处修改ocr模型的key(第135~136行)**
-
-
+ 
 ## 🍴 模型
 将使用云盘的形式上传
 
+ 
+## 🌷致谢
+部分实现基于开源项目 [MulongXie/GUI-Perceptual-Grouping](https://github.com/MulongXie/GUI-Perceptual-Grouping)。
+
+没有他们的贡献，我们的UI检测框架不会像今天这样完善。在此，致以诚挚的谢意。

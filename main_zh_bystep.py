@@ -12,6 +12,10 @@ from core.screenshot_translator import ScreenshotTranslator
 from core.LLM_api import use_LLM
 from core.help_seq_getter import help_get_flag, help_seq_get
 from core.Config import *
+import logging
+logging.disable(logging.DEBUG)
+logging.disable(logging.WARNING)
+
 taskdf = pd.read_excel(TaskTable_PATH, keep_default_na = False) 
 input_ProcessImgModel = True
 if input_ProcessImgModel:
@@ -182,7 +186,7 @@ def client_main():
 
                 result_js = process_img(label_path_dir, save_path_old, output_root, layout_json_dir, high_conf_flag,
                             alg, clean_save, plot_show, ocr_save_flag, model_ver, model_det, model_cls, preprocess, 
-                             pd_free_ocr=ocr, ocr_only=ocr_output_only)
+                             pd_free_ocr=ocr, ocr_only=ocr_output_only, accurate_ocr=accurate_ocr)
 
                 
                 # 存储json文件
