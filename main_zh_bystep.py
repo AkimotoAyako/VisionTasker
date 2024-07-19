@@ -110,21 +110,26 @@ def client_main():
     
     try:
         while True:
-            command = input("发送消息或图片或重置 (m/i): ") 
+            command = input("发送消息或图片 (m/i): ") 
             
             #发送任务信息
             if command.startswith('m'):
-                
-                tasklist = taskdf['任务内容'].tolist()  # 任务列表
-                inputarray = command.split(" ")
-                if len(inputarray) == 1:
-                    num = input("请输入任务序号：(序号需要大于3)")
-                else:
-                    num = inputarray[1]
-                while not num.isdigit() or tasklist[int(num) - 2] == '' :
-                    num = input("请输入有效的任务序号：(序号需要大于3)")
-                message = "Q：" + tasklist[int(num) - 2]  
+                #-----------------begin: input task content directly--------------
+                message = "Q：" + input("你好，我是VisionTasker。请输入任务内容：") 
+                # 例如：找到西安交通大学的官方微博并关注
+                #-----------------end: input task content directly--------------
 
+                #-----------------begin: use task.xlsx--------------
+                # tasklist = taskdf['任务内容'].tolist()  # 任务列表
+                # inputarray = command.split(" ")
+                # if len(inputarray) == 1:
+                #     num = input("请输入任务序号：(序号需要大于3)")
+                # else:
+                #     num = inputarray[1]
+                # while not num.isdigit() or tasklist[int(num) - 2] == '' :
+                #     num = input("请输入有效的任务序号：(序号需要大于3)")
+                # message = "Q：" + tasklist[int(num) - 2]  
+                #-----------------end: use task.xlsx--------------
                 if message.startswith("Q"):          
                     task_str = str(message)
                     task_str = task_str.split('Q：')[-1]

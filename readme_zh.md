@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 - `main_zh_bystep.py`：整个流程的单步实现（中文提示）；
 
-  1. 输入任务内容：先输入m，再输入任务表中(VisionTasker\data\task.xlsx)对应的任务序号xx, 也支持直接输入"m xxx"
+  1. 输入任务内容：若使用data中的任务表进行输入：先输入m，再输入任务表中(VisionTasker\data\task.xlsx)对应的任务序号xx, 也支持直接输入"m xxx"；若是要直接输入任务内容：先输入m，再输入任务内容。
 
   2. 截图识别：输入"i" (以i开头即可, 防止多余的误输入); llm输出的指令被执行器完成后，则继续进行下一次截图，直至任务完成。
 
