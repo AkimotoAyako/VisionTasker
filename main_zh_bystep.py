@@ -181,7 +181,7 @@ def client_main():
 
                 result_js = process_img(label_path_dir, save_path_old, output_root, layout_json_dir, high_conf_flag,
                             alg, clean_save, plot_show, ocr_save_flag, model_ver, model_det, model_cls, preprocess, 
-                             pd_free_ocr=ocr, ocr_only=ocr_output_only)
+                             pd_free_ocr=ocr, ocr_only=ocr_output_only, accurate_ocr=accurate_ocr)
 
                 
                 # 存储json文件
