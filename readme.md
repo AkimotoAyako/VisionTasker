@@ -23,7 +23,7 @@ Hardware: 1. Windows system computer; 2. Android mobile phone with data cable
 
 Make sure you have installed the [Android SDK](https://developer.android.com/tools/releases/platform-tools?hl=en) correctly to use the ADB function (remember to turn on the Developer Mode of your phone and allow debugging by the computer) 🍾
 
-Run
+### Run
 ```
 git clone https://github.com/AkimotoAyako/VisionTasker.git
 conda create -n visiontasker python=3.8
@@ -32,6 +32,9 @@ pip install -r requirements.txt
 
 Note to check that the gpu version of pytorch is used
 Model path: Put pre-trained models (target detection model and CLIP) under `pt_model/`
+
+### Input Method
+For text input on your phone, please refer to [ADBKeyBoard](https://github.com/senzhk/ADBKeyBoard) and install the corresponding applications on both your phone and computer.
 
 ## 🚀 Usage
 
