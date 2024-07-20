@@ -37,6 +37,9 @@ pip install -r requirements.txt
 注意检查是否使用了gpu版本的pytorch
 模型路径：将预训练模型（目标检测模型、CLIP分类模型）放在`pt_model/`下
 
+输入法：
+涉及在手机上输入文字的部分，请参考[ADBKeyBoard](https://github.com/senzhk/ADBKeyBoard)并在手机和电脑上进行对应安装
+
 ## 🚀 文件与使用说明
 #### `/`
 - `main_en_auto.py`：整个流程的自动化实现；
@@ -73,11 +76,11 @@ pip install -r requirements.txt
 
 benchmarks，使用GPT-4V的方法的主要的操作脚本：
 
-`LLM_api.py`：**在此处修改大语言模型的key**
+- `LLM_api.py`：**在此处修改大语言模型的key**
 
 #### `├─ element/detect_text/`
 
-- - `text_detection.py`: **在此处修改ocr模型的key(第135~136行)**
+- `text_detection.py`: **在此处修改ocr模型的key(第135~136行)**
  
 ## 🍴 模型
 将使用云盘的形式上传
