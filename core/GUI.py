@@ -417,10 +417,6 @@ class GUI:
         result_js = []
         if is_save:
             result_js = self.save_layout_result(clean_save=clean_save, layout_json_dir=layout_json_dir, workflow_only=workflow_only)
-        if not clean_save:
-            print("[Layout Recognition Completed in %.3f s] Input: %s Output: %s" % (time.time() - start_t, self.img_file, pjoin(self.layout_dir, self.file_name + '.json')))
-        else:
-            print("[Layout Recognition Completed in %.3f s] Input: %s Output: %s" % (time.time() - start_t, self.img_file, pjoin(layout_json_dir, self.file_name + '.json')))
         # print(time.ctime(), '\n\n')
         if return_df:
             return self.compos_df.compos_dataframe
