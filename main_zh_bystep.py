@@ -194,9 +194,7 @@ def client_main():
                 
                 # 将屏幕信息json文件 转换成 易阅读的字符串
                 ScreenshotTranslatorTest = ScreenshotTranslator(SCREEN_jSON_PATH)
-                humanword = ScreenshotTranslatorTest.json2humanword()
-                end_time = time.time()
-                print("（截图 + 控件检测分组 + 转为自然语言描述） 耗时: {:.2f}秒".format(end_time - start_time))           
+                humanword = ScreenshotTranslatorTest.json2humanword()      
                 
                 # 提示llm的注意事项
                 if len(invalid_button_str) == 1: # =1代表初始，即没有无效控件
@@ -258,8 +256,6 @@ def client_main():
                 start_time = time.time()
                 order_list = response
                 operator(order_list)  # 传递服务器返回的order_list中的每个操作
-                end_time = time.time()
-                print("（LLM获取输出后到执行动作） 耗时: {:.2f}秒".format(end_time - start_time))
                 print("*---------------------------执行命令完毕-----------------------------------*\n") 
             else:
                 print("response 是其他类型")
