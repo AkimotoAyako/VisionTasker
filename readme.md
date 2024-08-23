@@ -1,9 +1,8 @@
 # 📱 VisionTasker 🤖
 [[Paper(arxiv)]](https://arxiv.org/abs/2312.11190) 
 
-<center>
-[中文readme](https://github.com/AkimotoAyako/VisionTasker/blob/main/readme_zh.md)
-</center>
+[**中文readme**](https://github.com/AkimotoAyako/VisionTasker/blob/main/readme_zh.md)
+
 
 ## 📰 Abstract
 **VisionTasker** introduces a novel two-stage framework combining vision-based UI understanding and LLM task planning for mobile task automation in a step-by-step manner.
