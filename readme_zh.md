@@ -15,6 +15,8 @@
 ## 📢 最新消息
 这是我们上传的第一版🤗
 
+[2024-10-16] 模型上传了 （叉腰.jpg）🧐 
+
 ## 👩‍💻 配置环境
 硬件准备：1. Windows系统电脑；2.安卓手机与配套数据线
 
@@ -83,7 +85,8 @@ benchmarks，使用GPT-4V的方法的主要的操作脚本：
 - `text_detection.py`: **在此处修改ocr模型的key(第135~136行)**
  
 ## 🍴 模型
-将使用云盘的形式上传
+[☁️ Google Drive](https://drive.google.com/drive/folders/1ij5Y5JhUb8cPTAr8fZ0jfyenoNUqr5nP?usp=sharing)
+
 
  
 ## 🌷致谢
