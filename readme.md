@@ -17,6 +17,7 @@
 
 ## 📢 Release
 Here's the first version🤗
+
 [2024-10-16] The model has been updated🧐
 
 ## 👩‍💻 Prepare
