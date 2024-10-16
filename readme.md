@@ -17,6 +17,7 @@
 
 ## 📢 Release
 Here's the first version🤗
+[2024-10-16] The model has been updated🧐
 
 ## 👩‍💻 Prepare
 Hardware: 1. Windows system computer; 2. Android mobile phone with data cable
@@ -67,7 +68,7 @@ Benchmarks using GPT-4V method's main operation scripts:
 - `text_detection.py`: **Modify the key for the ocr model here (Line 135~136)**.
 
 ## 🍴 Model
-Will be uploaded in the form of cloud disk.
+[☁️ Google Drive](https://drive.google.com/drive/folders/1ij5Y5JhUb8cPTAr8fZ0jfyenoNUqr5nP?usp=sharing)
 
 ## 🌷Acknowledge
 Part of the implementation is based on the open-source project [MulongXie/GUI-Perceptual-Grouping](https://github.com/MulongXie/GUI-Perceptual-Grouping).
