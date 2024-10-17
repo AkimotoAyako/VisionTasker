@@ -85,9 +85,9 @@ benchmarks，使用GPT-4V的方法的主要的操作脚本：
 - `text_detection.py`: **在此处修改ocr模型的key(第135~136行)**
  
 ## 🍴 模型
-[☁️ Google Drive](https://drive.google.com/drive/folders/1ij5Y5JhUb8cPTAr8fZ0jfyenoNUqr5nP?usp=sharing)
+[☁️ 谷歌云](https://drive.google.com/drive/folders/1ij5Y5JhUb8cPTAr8fZ0jfyenoNUqr5nP?usp=sharing)
 
-
+[☁️ 夸克云盘](https://pan.quark.cn/s/f2f707e26a08)
  
 ## 🌷致谢
 部分实现基于开源项目 [MulongXie/GUI-Perceptual-Grouping](https://github.com/MulongXie/GUI-Perceptual-Grouping)。
