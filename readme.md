@@ -1,6 +1,6 @@
 # 📱 VisionTasker 🤖
 [[Paper(arxiv)]](https://arxiv.org/abs/2312.11190) 
-
+[[Paper(acm)]](https://dl.acm.org/doi/10.1145/3654777.3676386)
 [**中文readme**](https://github.com/AkimotoAyako/VisionTasker/blob/main/readme_zh.md)
 
 
