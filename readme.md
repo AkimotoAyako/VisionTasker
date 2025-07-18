@@ -3,6 +3,9 @@
 [[Paper(acm)]](https://dl.acm.org/doi/10.1145/3654777.3676386)
 [**中文readme**](https://github.com/AkimotoAyako/VisionTasker/blob/main/readme_zh.md)
 
+[[arXiv](https://img.shields.io/badge/Paper-arXiv%3A2312.11190-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.11190)
+[[ACM](https://img.shields.io/badge/Paper-ACM-blue?logo=acm&logoColor=white)](https://dl.acm.org/doi/10.1145/3654777.3676386)
+[![中文README](https://img.shields.io/badge/文档-中文README-brightgreen)](https://github.com/AkimotoAyako/VisionTasker/blob/main/readme_zh.md)
 
 ## 📰 Abstract
 **VisionTasker** introduces a novel two-stage framework combining vision-based UI understanding and LLM task planning for mobile task automation in a step-by-step manner.
