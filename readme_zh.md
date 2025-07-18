@@ -1,7 +1,6 @@
 # 📱 VisionTasker 🤖
-[[论文链接(acm)]](https://dl.acm.org/doi/10.1145/3654777.3676386)
-
-[[论文链接(arxiv)]](https://arxiv.org/abs/2312.11190) 
+[![arXiv](https://img.shields.io/badge/Paper-arXiv%3A2312.11190-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.11190)
+[![ACM](https://img.shields.io/badge/Paper-ACM-blue?logo=acm&logoColor=white)](https://dl.acm.org/doi/10.1145/3654777.3676386)
 
 ## 📰 简介
 **VisionTasker** 引入了一种结合基于视觉的UI理解和LLM任务规划的两阶段框架，用于逐步实现移动任务自动化。
